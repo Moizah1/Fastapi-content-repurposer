@@ -1,0 +1,14 @@
+# Core
+anthropic>=0.40.0
+
+# Web UI (optional — only needed for web_app.py)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Notion export (optional — only needed for save_to_notion)
+requests>=2.31.0
+
+# Google Docs export (optional — only needed for save_to_google_docs)
+google-api-python-client>=2.120.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0

@@ -1,12 +1,3 @@
-"""
-Simple FastAPI + HTML front-end for the Content Repurposer.
-
-Run with:
-    pip install fastapi uvicorn sse-starlette
-    uvicorn web_app:app --reload
-
-Then open http://127.0.0.1:8000 in your browser.
-"""
 
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
